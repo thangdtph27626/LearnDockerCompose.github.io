@@ -10,6 +10,22 @@ Docker Compose là một công cụ giúp quản lý các container Docker trong
 
 Docker Compose cho phép bạn tạo và quản lý các container của ứng dụng trong một tệp YAML duy nhất. Tệp YAML này sẽ chứa thông tin về các container, các mối quan hệ giữa chúng và các cài đặt khác.
 
+## Network là gì?
+network (mạng lưới) là một tập hợp các thiết bị máy tính, thiết bị mạng, thiết bị ngoại vi, server hoặc các thiết bị khác được kết nối với nhau để chia sẻ tài nguyên dữ liệu. Các máy tính trên mạng có thể được liên kết thông qua các kết nối vật lý như dây cáp hoặc wifi, hoặc thông qua các kết nối không dây như Bluetooth hoặc WiMAX.
+
+Có nhiều loại mạng khác nhau, bao gồm:
+
+- Mạng LAN (Local Area Network): Mạng LAN là một mạng máy tính được sử dụng trong một khu vực địa lý nhỏ, chẳng hạn như một tòa nhà hoặc một văn phòng.
+- Mạng WAN (Wide Area Network): Mạng WAN là một mạng máy tính được sử dụng trên một khu vực địa lý rộng lớn, chẳng hạn như một quốc gia hoặc một lục địa.
+- Mạng MAN (Metropolitan Area Network): Mạng MAN là một mạng máy tính được sử dụng trong một khu vực đô thị.
+- Mạng không dây: Mạng không dây là một mạng máy tính sử dụng sóng radio để kết nối các thiết bị.
+
+##  Tại sao lại phải sử dụng docker compose ? 
+
+- Tăng tốc độ triển khai: Docker Compose cho phép bạn triển khai một ứng dụng với một lệnh duy nhất. Điều này giúp bạn tiết kiệm thời gian và công sức.
+- Tăng tính nhất quán: Docker Compose đảm bảo rằng tất cả các container của bạn được triển khai với cùng một cấu hình. Điều này giúp bạn tránh các lỗi và sự cố.
+- Tăng khả năng mở rộng: Docker Compose cho phép bạn dễ dàng thêm hoặc xóa các container từ ứng dụng của mình. Điều này giúp bạn dễ dàng đáp ứng nhu cầu thay đổi của ứng dụng.
+
 ## Các tính năng của Docker Compose
 Docker Compose cung cấp nhiều tính năng hữu ích để giúp bạn quản lý các ứng dụng của mình. Dưới đây là một số tính năng quan trọng của Docker Compose:
 
